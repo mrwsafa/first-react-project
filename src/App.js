@@ -1,7 +1,9 @@
-import react from 'react'
-import BasicForm from './Components/BasicForm';
-import SearchBar from './Components/SearchBar';
-import Kimlik from './Components/Kimlik'
+import react from 'react';
+
+import Basicbootstrp from './components/Basicbootstrp';
+import BasicForm from './components/BasicForm';
+import SearchBar from './components/SearchBar';
+import Kimlik from './components/Kimlik'
 
 
 function App() {
@@ -9,7 +11,8 @@ function App() {
         <div className="App">
             {/* <Kimlik/> */}
             {/* <SearchBar/> */}
-            <BasicForm/>
+            {/* <BasicForm/> */}
+            <Basicbootstrp/>
 
         </div>
     );
